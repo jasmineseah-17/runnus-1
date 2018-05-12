@@ -5,10 +5,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>RunNUS</title>
-  <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
   <link rel="stylesheet" href="bulma/styles.css">
-  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
 </head>
 
@@ -25,22 +25,22 @@
           RunNUS
         </a>
         <div class="navbar-dropdown">
-          <a class="navbar-item">
+          <a class="navbar-item about">
             About Us
           </a>
-          <a class="navbar-item">
+          <a class="navbar-item categories">
             Categories and Fees
           </a>
-          <a class="navbar-item">
+          <a class="navbar-item runner">
             Runner's Entitlement
           </a>
-          <a class="navbar-item">
+          <a class="navbar-item pack">
             Race Pack
           </a>
-          <a class="navbar-item">
+          <a class="navbar-item routes">
             Race Routes
           </a>
-          <a class="navbar-item">
+          <a class="navbar-item volunteer">
             Volunteering
           </a>
           <hr class="navbar-divider">
@@ -54,7 +54,7 @@
   <section class="hero">
     <div class="container">
       <div class="hero-body">
-        <!--TODO: ADD BANNER-->
+        <div class="title is-1">This is RunNUS.</div>
         <figure class="image">
           <img src="img/header.jpg">
         </figure>
@@ -65,7 +65,7 @@
   <!--Countdown-->
   <section class="section">
     <div class="container">
-      <div class="columns is-desktop has-text-centered is-size-2 is-gapless">
+      <div class="columns is-half-desktop has-text-centered is-size-2 is-gapless">
         <div class="column">
           <span id="days"></span>
           <span class="is-size-4"> : days</span>
@@ -86,7 +86,7 @@
     </div>
   </section>
   <!--Introduction-->
-  <section class="section has-background-white-ter">
+  <section class="section has-background-white-ter about-body">
     <div class="container">
       <h1 class="title is-1">About Us</h1>
       <h2 class="subtitle">
@@ -147,10 +147,10 @@
   </section>
 
   <!--Categories-->
-  <section class="section">
+  <section class="section categories-body">
     <div class="container">
       <h1 class="title is-1">Categories and Fees</h1>
-      <div class="columns">
+      <div class="columns is-desktop">
         <div class="column">
           <div class="content table-container">
             <h2>3KM</h2>
@@ -247,10 +247,10 @@
       </div>
   </section>
 
-  <!--Entitlement-->
-  <section class="section has-background-grey-lighter">
+  <!--Runners' Entitlement-->
+  <section class="section has-background-grey-lighter runner-body">
     <div class="container">
-      <h1 class="title is-1">Runner's Entitlement</h1>
+      <h1 class="title is-1">Runners' Entitlement</h1>
       <div class="pricing-table">
 
         <div class="pricing-plan is-info">
@@ -358,7 +358,7 @@
   </section>
 
   <!--Race Pack-->
-  <section class="section has-background">
+  <section class="section has-background pack-body">
     <div class="container">
       <h1 class="title is-1">Race Pack Collection</h1>
       <h2 class="subtitle">
@@ -370,7 +370,7 @@
   </section>
 
   <!--Routes-->
-  <section class="section has-background-white-ter">
+  <section class="section has-background-white-ter routes-body">
     <div class="container">
       <h1 class="title is-1">Race Routes</h1>
       <h2 class="subtitle">
@@ -383,7 +383,7 @@
   </section>
 
   <!--Volunteers-->
-  <section class="section">
+  <section class="section volunteer-body">
     <div class="container">
       <h1 class="title is-1">Volunteering</h1>
       <h2 class="subtitle">
@@ -431,6 +431,7 @@
     </div>
     </div>
   </section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="js/script.js"></script>
 </body>
 
