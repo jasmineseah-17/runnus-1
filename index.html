@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hello Bulma!</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+  <link rel="stylesheet" href="bulma/styles.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar is-light" role="navigation" aria-label="dropdown navigation">
+    <!-- <div class="navbar-brand">
+      <a class="navbar-item" href="#">
+        <img src="img/logo.png" width="80" height="50">
+      </a>
+    </div> -->
+    <div class="container">
+      <div class="navbar-item has-dropdown is-hoverable is-right">
+        <a class="navbar-link">
+          RunNUS
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item">
+            About Us
+          </a>
+          <a class="navbar-item">
+            Categories and Fees
+          </a>
+          <a class="navbar-item">
+            Runner's Entitlement
+          </a>
+          <a class="navbar-item">
+            Race Pack
+          </a>
+          <a class="navbar-item">
+            Race Routes
+          </a>
+          <a class="navbar-item">
+            Volunteering
+          </a>
+          <hr class="navbar-divider">
+          <div class="navbar-item">
+            <a href="https://www.gevme.com/runnus-2018">Sign Up</a>
+          </div>
+        </div>
+      </div>
+  </nav>
+  </div>
+  <section class="hero">
+    <div class="container">
+      <div class="hero-body">
+        <!--TODO: ADD BANNER-->
+        <figure class="image">
+          <img src="img/header.jpg">
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!--Countdown-->
+  <section class="section">
+    <div class="container">
+      <div class="columns is-desktop has-text-centered is-size-2 is-gapless">
+        <div class="column">
+          <span id="days"></span>
+          <span class="is-size-4"> : days</span>
+        </div>
+        <div class="column">
+          <span id="hours"></span>
+          <span class="is-size-4"> : hours</span>
+        </div>
+        <div class="column">
+          <span id="minutes"></span>
+          <span class="is-size-4"> : minutes</span>
+        </div>
+        <div class="column">
+          <span id="seconds"></span>
+          <span class="is-size-4"> : seconds</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Introduction-->
+  <section class="section has-background-white-ter">
+    <div class="container">
+      <h1 class="title is-1">About Us</h1>
+      <h2 class="subtitle">
+        <div class="content">
+          <h3>RunNUS is an annual running event organized by NUS Students’ Sports Club to promote healthy lifestyles among the
+            NUS population and the public.
+          </h3>
+
+          <p>Since its inception in 2007, RunNUS has become one of the biggest and most anticipated event for NUS students,
+            staff and alumni. Above running and fun, RunNUS will be partnering with NUS Disability Support Office (DSO) and
+            inviting Social Service Organizations (SSOs) this year.
+          </p>
+
+          <p>
+            The National University of Singapore Students’ Sports Club (NUSSSC) is one of most active student organisations in the campus.
+            We cater to the recreational sporting needs of the NUS community. NUSSSC comprises of a central Management Committee
+            overseeing many recreational sports. The Management Committee provide the administrative, financial and logistical
+            support for our sports groups and act as the link between them, the general NUS population, with Office of Student
+            Affairs (NUS), Sports and Recreation Centre as well as external organisations. From the club’s roots in 1979,
+            2018 marks the 39th year of our club. NUSSSC now boasts a family of 21 member clubs, classified accordingly into
+            Martial Arts, Land, Indoor and Water sports.
+            </br>
+            </br>
+            The club also hosts the following 6 projects:
+          </p>
+
+          <table class="is-size-6">
+            <tbody>
+              <tr>
+                <td>NUS Biathlon</td>
+                <td>24 March</td>
+              </tr>
+              <tr>
+                <td>SunNUS</td>
+                <td>9 June</td>
+              </tr>
+              <tr>
+                <td>Sports Camp</td>
+                <td>2-5 July</td>
+              </tr>
+              <tr>
+                <td>Martial Arts Day (MadNUS)</td>
+                <td>18 - 20 August</td>
+              </tr>
+              <tr>
+                <td>Inter-Faculty Games</td>
+                <td>August - September</td>
+              </tr>
+              <tr class="has-text-danger">
+                <td>RunNUS</td>
+                <td>9 September</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </h2>
+    </div>
+  </section>
+
+  <!--Categories-->
+  <section class="section">
+    <div class="container">
+      <h1 class="title is-1">Categories and Fees</h1>
+      <div class="columns">
+        <div class="column">
+          <div class="content table-container">
+            <h2>3KM</h2>
+            <table class="table is-hoverable is-size-6">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>NUS</th>
+                  <th>Alumni</th>
+                  <th>Public</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Early bird</td>
+                  <td>$12.00</td>
+                  <td>$15.00</td>
+                  <td>$19.00</td>
+                </tr>
+              </tbody>
+              <tbody>
+                <tr>
+                  <td>Regular</td>
+                  <td>$16.00</td>
+                  <td>$19.00</td>
+                  <td>$23.00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content table-container">
+            <h2>5KM</h2>
+            <table class="table is-hoverable is-size-6">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>NUS</th>
+                  <th>Alumni</th>
+                  <th>Public</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Early bird</td>
+                  <td>$29.00</td>
+                  <td>$31.00</td>
+                  <td>$33.00</td>
+                </tr>
+              </tbody>
+              <tbody>
+                <tr>
+                  <td>Regular</td>
+                  <td>$33.00</td>
+                  <td>$35.00</td>
+                  <td>$37.00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content table-container">
+            <h2>10KM</h2>
+            <table class="table is-hoverable is-size-6">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>NUS</th>
+                  <th>Alumni</th>
+                  <th>Public</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Early bird</td>
+                  <td>$38.00</td>
+                  <td>$40.00</td>
+                  <td>$43.00</td>
+                </tr>
+              </tbody>
+              <tbody>
+                <tr>
+                  <td>Regular</td>
+                  <td>$42.00</td>
+                  <td>$44.00</td>
+                  <td>$47.00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!--Entitlement-->
+  <section class="section has-background-grey-lighter">
+    <div class="container">
+      <h1 class="title is-1">Runner's Entitlement</h1>
+      <div class="pricing-table">
+
+        <div class="pricing-plan is-info">
+          <div class="plan-header is-size-4">Keen</div>
+          <div class="plan-price">
+            <span class="plan-price-amount">
+              <span class="plan-price-currency">$</span>12 / 15 / 19</span>
+          </div>
+          <div class="plan-items">
+            <div class="plan-item">3 Kilometer Route</div>
+            <div class="plan-item">Singlet</div>
+            <div class="plan-item">Food / Snacks *</div>
+            <div class="plan-item">Photo @ Photobooth *</div>
+            <div class="plan-item">-</div>
+            <div class="plan-item">-</div>
+          </div>
+          <div class="plan-footer">
+            <a href="https://www.gevme.com/runnus-2018" class="button is-fullwidth">Select</a>
+          </div>
+        </div>
+
+        <div class="pricing-plan is-warning">
+          <div class="plan-header is-size-4">Ambitious</div>
+          <div class="plan-price">
+            <span class="plan-price-amount">
+              <span class="plan-price-currency">$</span>29 / 31 / 33</span>
+          </div>
+          <div class="plan-items">
+            <div class="plan-item">5 Kilometer Route</div>
+            <div class="plan-item">Singlet</div>
+            <div class="plan-item">Food / Snacks *</div>
+            <div class="plan-item">Photo @ Photobooth *</div>
+            <div class="plan-item">Medal</div>
+            <div class="plan-item">-</div>
+          </div>
+          <div class="plan-footer">
+            <a href="https://www.gevme.com/runnus-2018" class="button is-fullwidth">Select</a>
+          </div>
+        </div>
+
+        <div class="pricing-plan is-danger">
+          <div class="plan-header is-size-4">Insane</div>
+          <div class="plan-price">
+            <span class="plan-price-amount">
+              <span class="plan-price-currency">$</span>38 / 40 / 44</span>
+          </div>
+          <div class="plan-items">
+            <div class="plan-item">Ten Kilometer Route</div>
+            <div class="plan-item">Singlet</div>
+            <div class="plan-item">Food / Snacks *</div>
+            <div class="plan-item">Photo @ Photobooth *</div>
+            <div class="plan-item">Medal</div>
+            <div class="plan-item">Finisher Tee</div>
+          </div>
+          <div class="plan-footer">
+            <a href="https://www.gevme.com/runnus-2018" class="button is-fullwidth">Select</a>
+          </div>
+        </div>
+      </div>
+      * At post-carnival event.
+
+      <!--Shirt size-->
+      <div class="content table-container">
+        </br>
+        <h1>Unisex shirt sizing (inches)</h1>
+        <h3>Tolerance +/- 1.0 (inch)</h3>
+        <table class="table is-hoverable is-size-4">
+          <thead>
+            <tr>
+              <th></th>
+              <th>2XS</th>
+              <th>XS</th>
+              <th>S</th>
+              <th>M</th>
+              <th>L</th>
+              <th>XL</th>
+              <th>2XL</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Chest</td>
+              <td>16.5</td>
+              <td>17.5</td>
+              <td>18.5</td>
+              <td>19.5</td>
+              <td>20.5</td>
+              <td>21.5</td>
+              <td>22.5</td>
+            </tr>
+            <tr>
+              <td>Length</td>
+              <td>23.5</td>
+              <td>24.5</td>
+              <td>25.5</td>
+              <td>26.5</td>
+              <td>27.5</td>
+              <td>28.5</td>
+              <td>29.5</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!--Race Pack-->
+  <section class="section has-background">
+    <div class="container">
+      <h1 class="title is-1">Race Pack Collection</h1>
+      <h2 class="subtitle">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. In at minus eveniet voluptate voluptates! Illo voluptatem consequuntur,
+        maxime, ex dolorum nulla mollitia blanditiis cum assumenda voluptate id, sed aspernatur ullam nemo quae totam? Error
+        fuga molestiae est repellendus soluta neque optio, eligendi, ipsum animi, officia beatae corporis nobis modi rerum.
+      </h2>
+    </div>
+  </section>
+
+  <!--Routes-->
+  <section class="section has-background-white-ter">
+    <div class="container">
+      <h1 class="title is-1">Race Routes</h1>
+      <h2 class="subtitle">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum sunt similique consectetur beatae praesentium odit sequi
+        ullam iure vel laudantium omnis, totam, ad porro accusantium ab hic velit fugit officia quia, consequuntur natus
+        ratione. Dignissimos facere laudantium maiores placeat ipsum veniam modi, ullam incidunt voluptas. Animi blanditiis
+        quod perspiciatis suscipit.
+      </h2>
+    </div>
+  </section>
+
+  <!--Volunteers-->
+  <section class="section">
+    <div class="container">
+      <h1 class="title is-1">Volunteering</h1>
+      <h2 class="subtitle">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis hic voluptates illum reprehenderit obcaecati, optio culpa neque
+        ut eum voluptas maiores nulla libero aut nihil recusandae odit eos voluptatibus quam quisquam. Dolorum, magni molestias
+        atque voluptates repellendus sint? Exercitationem quidem suscipit doloribus, eius voluptatibus id vitae dolorum rerum
+        obcaecati molestias?
+      </h2>
+    </div>
+  </section>
+
+  <!--Contact-->
+  <section class="section has-background-grey-darker">
+    <div class="container">
+      <div class="columns has-text-centered has-text-white">
+        <div class="column">
+          <p class="is-size-4">About Us</p>
+          <p class="is-size-6">
+            <a href="admin@runnus.nussportsclub.org">Email</a>
+          </p>
+          <p class="is-size-6">
+            <a href="https://www.facebook.com/RunNUS">Facebook</a>
+          </p>
+          <p class="is-size-6">
+            <a href="https://www.instagram.com/_u/runnus">Instagram</a>
+          </p>
+        </div>
+        <div class="column">
+          <p class="is-size-4">FAQ</p>
+          <p class="is-size-6">
+            <a href="content/Terms PDF.pdf" download>Terms and Conditions</a>
+          </p>
+          <p class="is-size-6">
+            <a href="content/Rules PDF.pdf" download>Rules and Regulations</a>
+          </p>
+          <p class="is-size-6">
+            <a href="content/Indemnity Form.docx" download>Indemnity Form for participants under 18</a>
+          </p>
+          <p class="is-size-6">
+            <a href="content/FAQ PDF.pdf" download>Additional FAQ</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
