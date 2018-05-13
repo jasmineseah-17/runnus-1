@@ -284,7 +284,7 @@ a {
   a strong {
     color: currentColor; }
   a:hover {
-    color: #363636; }
+    color: #003D7C; }
 
 code {
   background-color: whitesmoke;
@@ -3210,12 +3210,18 @@ a.box:active {
 
 .image {
   display: block;
-  position: relative; }
+  position: relative;}
   .image img {
     display: block;
     height: auto;
     width: 100%; }
-    .image img.is-rounded {
+  .image img.sportsclub {
+    display: block;
+    height: auto;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto; }
+  .image img.is-rounded {
       border-radius: 290486px; }
   .image.is-square img, .image.is-1by1 img, .image.is-5by4 img, .image.is-4by3 img, .image.is-3by2 img, .image.is-5by3 img, .image.is-16by9 img, .image.is-2by1 img, .image.is-3by1 img, .image.is-4by5 img, .image.is-3by4 img, .image.is-2by3 img, .image.is-3by5 img, .image.is-9by16 img, .image.is-1by2 img, .image.is-1by3 img {
     height: 100%;
@@ -3736,7 +3742,10 @@ a.tag:hover {
   .title:not(.is-spaced) + .subtitle {
     margin-top: -1.25rem; }
   .title.is-1 {
-    font-size: 3rem; }
+    font-size: 3rem;}
+  .title.is-1.timing{
+    text-align: center;
+  }
   .title.is-2 {
     font-size: 2.5rem; }
   .title.is-3 {
@@ -3963,7 +3972,7 @@ a.dropdown-item {
     background-color: whitesmoke;
     color: #0a0a0a; }
   a.dropdown-item.is-active {
-    background-color: #72d0eb;
+    background-color: #f78b26;
     color: rgba(0, 0, 0, 0.7); }
 
 .dropdown-divider {
@@ -4107,7 +4116,7 @@ a.dropdown-item {
       background-color: whitesmoke;
       color: #363636; }
     .menu-list a.is-active {
-      background-color: #72d0eb;
+      background-color: #f78b26;
       color: rgba(0, 0, 0, 0.7); }
   .menu-list li ul {
     border-left: 1px solid #dbdbdb;
@@ -4952,7 +4961,7 @@ a.navbar-item,
   .navbar-link:hover,
   .navbar-link.is-active {
     background-color: #fafafa;
-    color: #72d0eb; }
+    color: #f78b26; }
 
 .navbar-item {
   display: block;
